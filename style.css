@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+marquee{
+    font-family: "Oswald", sans-serif;
+    color: #BB377D;
+}
+
+
+header{
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: row;
+    justify-content: space-between;   
+    background-color: rgb(247, 203, 231);
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 20px;
+}
+
+header img{    
+    border-radius: 1rem;
+    width: 150px;
+    margin: 10px 0px 10px 0px;
+}
+header h1{
+    font-size: 34px;
+    color: white;
+    font-family: "Seymour One", sans-serif;
+}
+header p{
+  font-size: 26px;
+  color: white;
+  font-family: "Seymour One", sans-serif;
+}
+
+body{
+    background: #FBD3E9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+.presentacion{
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    align-items: center;
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 100%;
+    margin: 10px 0px 10px 0%;
+}   
+.presentacion h1{
+    font-size: 35px;
+    color: rgb(178, 19, 199);
+    font-family: "Seymour One", sans-serif;
+}
+.presentacion p{
+    width: 60%;
+    font-size: 26px;
+    padding: 10px;
+    color: rgb(178, 19, 199);
+    font-family: "Seymour One", sans-serif;
+}
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor{
+  display: flex;
+  border-radius: 1rem;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  background: #FC5C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.caja{
+    width: 100%;
+    height: 60%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+    border-radius: 60%;
+    width: 150px;
+}
+.caja1{
+    background-color: rgb(2, 168, 245);
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+.caja1 h1{
+    font-size: 20px;
+    color: rgb(14, 13, 13);
+    font-family: "Oswald", sans-serif;
+}
+.caja1 p{
+    font-size: 15px;
+    color: rgb(20, 20, 20);
+    font-family: "Oswald", sans-serif;
+}
+
+button{
+    border: 0;
+    background-image: linear-gradient(150deg #9500ff, #09f, #0df);
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+button span{
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+button :hover span{
+    background: none;
+}  
+button :active{
+    transform: scale(0.9);
+}
+
+
+footer p{
+    font-size: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.galery{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+}
+.galery div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.galery> div:hover{
+    flex: 5;
+
+}
+
